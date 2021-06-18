@@ -1,0 +1,3 @@
+MODULE register_def_2
+	SUBMODULE Get_Money
+		INSTANCE XLXI_41

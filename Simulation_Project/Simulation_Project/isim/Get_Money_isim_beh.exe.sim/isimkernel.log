@@ -1,0 +1,28 @@
+Command line:
+   Get_Money_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58091
+
+Mon Jan 27 02:18:33 2020
+
+
+ Elaboration Time: 0.109375 sec
+
+ Current Memory Usage: 5163.79 Meg
+
+ Total Signals          : 989
+ Total Nets             : 272
+ Total Signal Drivers   : 245
+ Total Blocks           : 209
+ Total Primitive Blocks : 183
+ Total Processes        : 246
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 352
+
+ Total Simulation Time: 0.375 sec
+
+ Current Memory Usage: 5006.5 Meg
+
+Mon Jan 27 02:20:21 2020
+

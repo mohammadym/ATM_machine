@@ -1,0 +1,5 @@
+verilog work "Memory.vf"
+verilog work "Get_Money.vf"
+verilog work "Full_Adder10.vf"
+verilog work "Check_Pass.vf"
+verilog work "Main.vf"

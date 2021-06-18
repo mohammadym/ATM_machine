@@ -1,0 +1,108 @@
+ISim log file
+Running: C:\Users\Asus\Desktop\Simulation_Project\Simulation_Project\Main_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Asus/Desktop/Simulation_Project/Simulation_Project/Main_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /Main/pass0 1 -radix bin
+# isim force add /Main/pass1 1 -radix bin
+# isim force add /Main/pass2 1 -radix bin
+# isim force add /Main/pass3 1 -radix bin
+# isim force add /Main/pass4 1 -radix bin
+# isim force add /Main/pass5 1 -radix bin
+# isim force add /Main/pass6 1 -radix bin
+# isim force add /Main/pass7 1 -radix bin
+# isim force add /Main/pass8 1 -radix bin
+# isim force add /Main/pass9 1 -radix bin
+# isim force add /Main/def0 1 -radix bin
+# isim force add /Main/def1 1 -radix bin
+# isim force add /Main/def2 1 -radix bin
+# isim force add /Main/def3 1 -radix bin
+# isim force add /Main/def4 1 -radix bin
+# isim force add /Main/def5 1 -radix bin
+# isim force add /Main/def6 1 -radix bin
+# isim force add /Main/def7 1 -radix bin
+# isim force add /Main/def8 1 -radix bin
+# isim force add /Main/def9 1 -radix bin
+# isim force add /Main/clock 1 -radix bin
+# run 1.00us
+# isim force add /Main/control0 1 -radix bin
+# isim force add /Main/control1 1 -radix bin
+# isim force add /Main/clock 0 -radix bin
+# run 1.00us
+# isim force add /Main/init0 1 -radix bin
+# isim force add /Main/init1 1 -radix bin
+# isim force add /Main/init2 1 -radix bin
+# isim force add /Main/init3 1 -radix bin
+# isim force add /Main/init4 0 -radix bin
+# isim force add /Main/init5 0 -radix bin
+# isim force add /Main/init6 0 -radix bin
+# isim force add /Main/init7 0 -radix bin
+# isim force add /Main/init8 0 -radix bin
+# isim force add /Main/init9 0 -radix bin
+# run 1.00us
+# isim force add /Main/clock 1 -radix bin
+# run 1.00us
+# run 1.00us
+# isim force add /Main/clock 0 -radix bin
+# run 1.00us
+# isim force add /Main/clock 1 -radix bin
+# run 1.00us
+# isim force add /Main/control0 0 -radix bin
+# run 1.00us
+# isim force add /Main/get0 1 -radix bin
+# isim force add /Main/get1 0 -radix bin
+# isim force add /Main/get2 0 -radix bin
+# isim force add /Main/get3 0 -radix bin
+# isim force add /Main/get4 0 -radix bin
+# isim force add /Main/get5 0 -radix bin
+# isim force add /Main/get6 0 -radix bin
+# isim force add /Main/get7 0 -radix bin
+# isim force add /Main/get8 0 -radix bin
+# isim force add /Main/get9 0 -radix bin
+# run 1.00us
+# isim force add /Main/clock 0 -radix bin
+# run 1.00us
+# isim force add /Main/clock 1 -radix bin
+# run 1.00us
+# isim force add /Main/s0 1 -radix bin
+# isim force add /Main/s1 1 -radix bin
+# isim force add /Main/clock 0 -radix bin
+# run 1.00us
+# isim force add /Main/control0 1 -radix bin
+# run 1.00us
+# isim force add /Main/clock 1 -radix bin
+# run 1.00us
+# isim force add /Main/control0 0 -radix bin
+# isim force add /Main/clock 0 -radix bin
+# run 1.00us
+# isim force add /Main/clock 1 -radix bin
+# run 1.00us
+# run 1.00us
+# isim force add /Main/clock 0 -radix bin
+# run 1.00us
+# isim force add /Main/clock 1 -radix bin
+# run 1.00us
+# isim force add /Main/control0 1 -radix bin
+# isim force add /Main/control1 0 -radix bin
+# isim force add /Main/Add0 1 -radix bin
+# isim force add /Main/Add1 1 -radix bin
+# isim force add /Main/Add2 0 -radix bin
+# isim force add /Main/Add3 0 -radix bin
+# show driver /Main/Add4
+/Main/Add4 has no drivers.
+# isim force add /Main/Add4 0 -radix bin
+# isim force add /Main/Add5 0 -radix bin
+# isim force add /Main/Add6 0 -radix bin
+# isim force add /Main/Add7 0 -radix bin
+# isim force add /Main/Add8 0 -radix bin
+# isim force add /Main/Add9 0 -radix bin
+# run 1.00us
+# isim force add /Main/clock 0 -radix bin
+# run 1.00us
+# isim force add /Main/clock 1 -radix bin
+# run 1.00us

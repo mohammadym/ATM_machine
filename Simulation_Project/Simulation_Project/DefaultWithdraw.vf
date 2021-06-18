@@ -1,0 +1,317 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : DefaultWithdraw.vf
+// /___/   /\     Timestamp : 01/27/2020 19:31:38
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family xc9500xl -verilog "C:/Users/Amir Esmaeili/Desktop/Simulation_Project/Simulation_Project/DefaultWithdraw.vf" -w "C:/Users/Amir Esmaeili/Desktop/Simulation_Project/Simulation_Project/DefaultWithdraw.sch"
+//Design Name: DefaultWithdraw
+//Device: xc9500xl
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module M2_1E_MXILINX_DefaultWithdraw(D0, 
+                                     D1, 
+                                     E, 
+                                     S0, 
+                                     O);
+
+    input D0;
+    input D1;
+    input E;
+    input S0;
+   output O;
+   
+   wire M0;
+   wire M1;
+   
+   AND3  I_36_30 (.I0(D1), 
+                 .I1(E), 
+                 .I2(S0), 
+                 .O(M1));
+   AND3B1  I_36_31 (.I0(S0), 
+                   .I1(E), 
+                   .I2(D0), 
+                   .O(M0));
+   OR2  I_36_38 (.I0(M1), 
+                .I1(M0), 
+                .O(O));
+endmodule
+`timescale 1ns / 1ps
+
+module M2_1_MXILINX_DefaultWithdraw(D0, 
+                                    D1, 
+                                    S0, 
+                                    O);
+
+    input D0;
+    input D1;
+    input S0;
+   output O;
+   
+   wire M0;
+   wire M1;
+   
+   AND2B1  I_36_7 (.I0(S0), 
+                  .I1(D0), 
+                  .O(M0));
+   OR2  I_36_8 (.I0(M1), 
+               .I1(M0), 
+               .O(O));
+   AND2  I_36_9 (.I0(D1), 
+                .I1(S0), 
+                .O(M1));
+endmodule
+`timescale 1ns / 1ps
+
+module M4_1E_MXILINX_DefaultWithdraw(D0, 
+                                     D1, 
+                                     D2, 
+                                     D3, 
+                                     E, 
+                                     S0, 
+                                     S1, 
+                                     O);
+
+    input D0;
+    input D1;
+    input D2;
+    input D3;
+    input E;
+    input S0;
+    input S1;
+   output O;
+   
+   wire M01;
+   wire M23;
+   
+   (* HU_SET = "U1_2" *) 
+   M2_1E_MXILINX_DefaultWithdraw  U1 (.D0(D0), 
+                                     .D1(D1), 
+                                     .E(E), 
+                                     .S0(S0), 
+                                     .O(M01));
+   (* HU_SET = "U2_1" *) 
+   M2_1E_MXILINX_DefaultWithdraw  U2 (.D0(D2), 
+                                     .D1(D3), 
+                                     .E(E), 
+                                     .S0(S0), 
+                                     .O(M23));
+   (* HU_SET = "U3_0" *) 
+   M2_1_MXILINX_DefaultWithdraw  U3 (.D0(M01), 
+                                    .D1(M23), 
+                                    .S0(S1), 
+                                    .O(O));
+endmodule
+`timescale 1ns / 1ps
+
+module DefaultWithdraw(in0, 
+                       in1, 
+                       in2, 
+                       in3, 
+                       in4, 
+                       in5, 
+                       in6, 
+                       in7, 
+                       in8, 
+                       In9, 
+                       s0, 
+                       s1, 
+                       out0, 
+                       out1, 
+                       out2, 
+                       out3, 
+                       out4, 
+                       out5, 
+                       out6, 
+                       out7, 
+                       out8, 
+                       out9);
+
+    input in0;
+    input in1;
+    input in2;
+    input in3;
+    input in4;
+    input in5;
+    input in6;
+    input in7;
+    input in8;
+    input In9;
+    input s0;
+    input s1;
+   output out0;
+   output out1;
+   output out2;
+   output out3;
+   output out4;
+   output out5;
+   output out6;
+   output out7;
+   output out8;
+   output out9;
+   
+   wire XLXN_1;
+   wire XLXN_2;
+   wire XLXN_3;
+   wire XLXN_5;
+   wire XLXN_6;
+   wire XLXN_7;
+   wire XLXN_9;
+   wire XLXN_10;
+   wire XLXN_11;
+   wire XLXN_13;
+   wire XLXN_14;
+   wire XLXN_15;
+   wire XLXN_17;
+   wire XLXN_18;
+   wire XLXN_19;
+   wire XLXN_21;
+   wire XLXN_22;
+   wire XLXN_23;
+   wire XLXN_26;
+   wire XLXN_27;
+   wire XLXN_28;
+   wire XLXN_30;
+   wire XLXN_31;
+   wire XLXN_32;
+   wire XLXN_34;
+   wire XLXN_35;
+   wire XLXN_36;
+   wire XLXN_38;
+   wire XLXN_39;
+   wire XLXN_40;
+   wire XLXN_46;
+   
+   assign XLXN_1 = 0;
+   assign XLXN_2 = 1;
+   assign XLXN_3 = 0;
+   assign XLXN_5 = 0;
+   assign XLXN_6 = 1;
+   assign XLXN_7 = 1;
+   assign XLXN_9 = 1;
+   assign XLXN_10 = 0;
+   assign XLXN_11 = 1;
+   assign XLXN_13 = 1;
+   assign XLXN_14 = 0;
+   assign XLXN_15 = 1;
+   assign XLXN_17 = 0;
+   assign XLXN_18 = 1;
+   assign XLXN_19 = 0;
+   assign XLXN_21 = 1;
+   assign XLXN_22 = 0;
+   assign XLXN_23 = 0;
+   assign XLXN_26 = 0;
+   assign XLXN_27 = 1;
+   assign XLXN_28 = 0;
+   assign XLXN_30 = 1;
+   assign XLXN_31 = 0;
+   assign XLXN_32 = 1;
+   assign XLXN_34 = 0;
+   assign XLXN_35 = 1;
+   assign XLXN_36 = 0;
+   assign XLXN_38 = 1;
+   assign XLXN_39 = 1;
+   assign XLXN_40 = 0;
+   assign XLXN_46 = 1;
+   (* HU_SET = "XLXI_1_3" *) 
+   M4_1E_MXILINX_DefaultWithdraw  XLXI_1 (.D0(XLXN_1), 
+                                         .D1(XLXN_2), 
+                                         .D2(XLXN_3), 
+                                         .D3(In9), 
+                                         .E(XLXN_46), 
+                                         .S0(s0), 
+                                         .S1(s1), 
+                                         .O(out9));
+   (* HU_SET = "XLXI_2_4" *) 
+   M4_1E_MXILINX_DefaultWithdraw  XLXI_2 (.D0(XLXN_5), 
+                                         .D1(XLXN_6), 
+                                         .D2(XLXN_7), 
+                                         .D3(in8), 
+                                         .E(XLXN_46), 
+                                         .S0(s0), 
+                                         .S1(s1), 
+                                         .O(out8));
+   (* HU_SET = "XLXI_3_5" *) 
+   M4_1E_MXILINX_DefaultWithdraw  XLXI_3 (.D0(XLXN_9), 
+                                         .D1(XLXN_10), 
+                                         .D2(XLXN_11), 
+                                         .D3(in7), 
+                                         .E(XLXN_46), 
+                                         .S0(s0), 
+                                         .S1(s1), 
+                                         .O(out7));
+   (* HU_SET = "XLXI_4_6" *) 
+   M4_1E_MXILINX_DefaultWithdraw  XLXI_4 (.D0(XLXN_13), 
+                                         .D1(XLXN_14), 
+                                         .D2(XLXN_15), 
+                                         .D3(in6), 
+                                         .E(XLXN_46), 
+                                         .S0(s0), 
+                                         .S1(s1), 
+                                         .O(out6));
+   (* HU_SET = "XLXI_5_7" *) 
+   M4_1E_MXILINX_DefaultWithdraw  XLXI_5 (.D0(XLXN_17), 
+                                         .D1(XLXN_18), 
+                                         .D2(XLXN_19), 
+                                         .D3(in5), 
+                                         .E(XLXN_46), 
+                                         .S0(s0), 
+                                         .S1(s1), 
+                                         .O(out5));
+   (* HU_SET = "XLXI_6_8" *) 
+   M4_1E_MXILINX_DefaultWithdraw  XLXI_6 (.D0(XLXN_21), 
+                                         .D1(XLXN_22), 
+                                         .D2(XLXN_23), 
+                                         .D3(in4), 
+                                         .E(XLXN_46), 
+                                         .S0(s0), 
+                                         .S1(s1), 
+                                         .O(out4));
+   (* HU_SET = "XLXI_7_9" *) 
+   M4_1E_MXILINX_DefaultWithdraw  XLXI_7 (.D0(XLXN_26), 
+                                         .D1(XLXN_27), 
+                                         .D2(XLXN_28), 
+                                         .D3(in3), 
+                                         .E(XLXN_46), 
+                                         .S0(s0), 
+                                         .S1(s1), 
+                                         .O(out3));
+   (* HU_SET = "XLXI_8_10" *) 
+   M4_1E_MXILINX_DefaultWithdraw  XLXI_8 (.D0(XLXN_30), 
+                                         .D1(XLXN_31), 
+                                         .D2(XLXN_32), 
+                                         .D3(in2), 
+                                         .E(XLXN_46), 
+                                         .S0(s0), 
+                                         .S1(s1), 
+                                         .O(out2));
+   (* HU_SET = "XLXI_9_11" *) 
+   M4_1E_MXILINX_DefaultWithdraw  XLXI_9 (.D0(XLXN_34), 
+                                         .D1(XLXN_35), 
+                                         .D2(XLXN_36), 
+                                         .D3(in1), 
+                                         .E(XLXN_46), 
+                                         .S0(s0), 
+                                         .S1(s1), 
+                                         .O(out1));
+   (* HU_SET = "XLXI_10_12" *) 
+   M4_1E_MXILINX_DefaultWithdraw  XLXI_10 (.D0(XLXN_38), 
+                                          .D1(XLXN_39), 
+                                          .D2(XLXN_40), 
+                                          .D3(in0), 
+                                          .E(XLXN_46), 
+                                          .S0(s0), 
+                                          .S1(s1), 
+                                          .O(out0));
+endmodule
